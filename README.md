@@ -10,6 +10,15 @@ Account kit enables users to log in using their phone number or email address an
 * Handle the Account Kit Callbacks
 * Access Account Information
 * Logout
+#### 2 ways to authenticate
+1. client access token
+   * simpler to implement
+   * long-lived token
+   
+2. authorization code
+    * requires extra steps server-side
+    * authorization code is short-lived
+    * client never sees the token
 
 ### Facebook Login
 Facebook login allows a user to log in with the clock of a button and authenticate their identity using their Facebook credentials.
