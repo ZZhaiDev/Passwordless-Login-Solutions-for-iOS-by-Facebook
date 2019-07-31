@@ -22,3 +22,8 @@ Account kit enables users to log in using their phone number or email address an
 
 ### Facebook Login
 Facebook login allows a user to log in with the clock of a button and authenticate their identity using their Facebook credentials.
+#### How Facebook Login Works
+  * The client requests access and permissions
+  * The user authenticates and approves permissions
+  * An access token is returned to the client
+  * User enters the app
